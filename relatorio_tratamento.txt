@@ -1,0 +1,30 @@
+
+RELATÓRIO DE TRATAMENTO DE DADOS - BASE KAISERHAUS
+==================================================
+
+
+ESTATÍSTICAS:
+- Registros originais: 5,000
+- Registros finais: 5,000
+- Registros mantidos: 100.0%
+
+PROBLEMAS RESOLVIDOS:
+- Valores nulos em distance_km: 323
+- Valores nulos em actual_delivery_minutes: 200
+- Tempos de entrega negativos: 9 (substituídos por ETA)
+
+MELHORIA DE QUALIDADE: 100.0%
+
+MÉTODOS APLICADOS:
+1. Imputação geográfica por bairro destino
+2. Correção de valores impossíveis usando ETA (tempo estimado)
+3. Identificação de outliers com limites de negócio
+
+ESTRATÉGIA DE CORREÇÃO:
+- Tempos negativos → Substituídos pelo ETA correspondente
+- Mais realista que usar 0 ou remover registros
+- Preserva informação temporal estimada
+
+ARQUIVOS GERADOS:
+- Base_Kaiserhaus_Limpa.csv
+- relatorio_tratamento.txt
