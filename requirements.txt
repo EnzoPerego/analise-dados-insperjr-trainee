@@ -1,0 +1,20 @@
+# Análise Descritiva - Base Kaiserhaus
+# Dependências para análise exploratória de dados
+
+# Manipulação e análise de dados
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Visualização
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Processamento de datas
+python-dateutil>=2.8.0
+
+# Jupyter/Colab (opcional para ambiente local)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Utilitários
+tqdm>=4.64.0
