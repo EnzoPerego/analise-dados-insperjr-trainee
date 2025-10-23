@@ -1,5 +1,5 @@
-# Análise Descritiva - Base Kaiserhaus
-# Dependências para análise exploratória de dados
+# Análise de Dados - Base Kaiserhaus
+# Dependências para análise exploratória e modelo preditivo
 
 # Manipulação e análise de dados
 pandas>=1.5.0
@@ -8,6 +8,10 @@ numpy>=1.21.0
 # Visualização
 matplotlib>=3.5.0
 seaborn>=0.11.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
 
 # Processamento de datas
 python-dateutil>=2.8.0
@@ -18,3 +22,6 @@ ipykernel>=6.0.0
 
 # Utilitários
 tqdm>=4.64.0
+
+# Exportação de dados
+openpyxl>=3.0.0
