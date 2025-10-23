@@ -2,6 +2,7 @@
 RELATÓRIO DE TRATAMENTO DE DADOS - BASE KAISERHAUS
 ==================================================
 
+Data: 2025-10-23 09:35:45
 
 ESTATÍSTICAS:
 - Registros originais: 5,000
@@ -13,7 +14,7 @@ PROBLEMAS RESOLVIDOS:
 - Valores nulos em actual_delivery_minutes: 200
 - Tempos de entrega negativos: 9 (substituídos por ETA)
 
-MELHORIA DE QUALIDADE: 100.0%
+MELHORIA DE QUALIDADE: 1.7%
 
 MÉTODOS APLICADOS:
 1. Imputação geográfica por bairro destino
